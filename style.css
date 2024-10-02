@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+ body,html{
+  width: 100%;
+  height: 100vh;
+  background:#111422;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  flex-wrap: wrap;
+  overflow: hidden;
+ 
+  
+  
+}
+
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    border: 1px solid;
+}
+
+
+
+
+.logo{
+    line-height: 80px;
+    color: whitesmoke;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 30px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav li a:hover{
+    color: white;
+    background:#313131 ;
+    border: 1px solid #111422;
+    border-radius: 8px;
+    transform: scale(2);
+}
+
+
+
+#checkbtn{
+    float: right;
+    line-height: 80px;
+    margin-right: 20px;
+    display: none;
+    font-size: 25px;
+    color: white;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked~ul{
+    left: 0;
+}
+
+
+
+
+
+@media(max-width:442px){
+     #checkbtn{
+         display: block;
+     }
+     
+    nav ul{
+         width: 100%;
+         height: 100vh;
+         background:#111422;
+         position: fixed;
+         top: 80px;
+         left: -100%;
+         transition: 0.5s;
+     }
+     
+    nav ul li{
+         text-align: center;
+         display: block;
+         padding: 8px;
+     }
+   
+    
+   }
+   
+   
+   
+   .Content{
+       
+       width: 100%;
+       height: auto;
+   }
+   
+   
+   
+   
+   
+   h1{
+       color: white;
+       font-size: 20px;
+       
+       margin-left: 8px;
+       padding-top: 25px;
+     
+   }
+   
+   h2{
+       color: white;
+       font-size: 30px;
+       margin-left: 12px;
+       
+   }
+   h3{
+       color: white;
+       font-size: 20px;
+       margin-left: 12px;
+   }
+   
+   
+       
+   .btn{
+       width: 35%;
+       background: #00d5ff;
+       border: 1px solid#00abff;
+       border-radius: 25px;
+      
+       
+   }
+   
+   
+   button{
+       width: 100px;
+       height: 28px;
+       border-radius:20px ;
+       color:white;
+       background: #0096ff;
+       border:none;
+        margin-left:22px ; 
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       margin-top: 8px;
+   }
+   button:hover{
+       background:#0018ff ;
+       box-shadow: 0 0 5px #00abff
+       0 0 20px#002dff;
+       color: whitesmoke;
+   }
+   button a{
+       text-decoration: none;
+       color: white;
+   }
+   
+   
+   .png{
+      display:flex ;
+      gap:2rem;
+      margin-left: 30px;
+      padding-top: 25px;
+      list-style: none;
+      
+   }
+   
+   .png li{
+       color: #0081ff;
+      
+       font-size: 25px;
+   }
+   
+   
+   
+   
+   
+   
+   
+   .p{
+       width: 100%;
+       height: auto;
+       background: no-repeat;
+       display: flex;
+       justify-content: center;
+       align-items:center;
+   }
+   .cir{
+       width: 200px;
+       height: 200px;
+       background: blue;
+      border-radius: 50%;
+      box-shadow: 0 0 10px#3b00ff,
+      inset 0 0 10px;
+      0 0 20px#0081ff;
+      0 0 30px#1100ff;
+      
+    
+   }
+   
+   img{
+       width: 100%;
+       height: 100%;
+       bbackground: cover;
+       border-radius: 50%;
+   }
+   
+   
+   
+   
+   
+   
+  
+  
+  
+  
+  
+
+  .box{
+      width: 100%;
+      height:auto;
+      background:none;
+      justify-content: center;
+      display: flex;
+  }
+  
+  .web{
+      width: 250px;
+      height: 200px;
+      border: 1px solid grey;
+      margin-top: 8px;
+     
+      
+   background: none;
+   border-radius: 25px;
+   box-shadow:0 0 10px#00c0ff;
+  }
+ 
+ 
+ 
+ 
+ 
+ 
